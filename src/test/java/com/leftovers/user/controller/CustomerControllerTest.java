@@ -147,7 +147,7 @@ class CustomerControllerTest {
                 .perform(MockMvcRequestBuilders.get("/customers/20"))
                 .andExpect(MockMvcResultMatchers.status().is(404));
     }
-    */
+
 
     @Test
     void getCustomerByEmailReturnsValidCustomerAndCode200() throws Exception {
@@ -172,7 +172,7 @@ class CustomerControllerTest {
                 .perform(MockMvcRequestBuilders.get("/customers/email/fake@email.com"))
                 .andExpect(MockMvcResultMatchers.status().is(404));
     }
-    */
+
 
     @Test
     void createNewCustomerReturnsCreatedIdAndCode201OnValidDto() throws Exception {
@@ -315,4 +315,5 @@ class CustomerControllerTest {
                 .andExpect(MockMvcResultMatchers.status().is(204));
     }
 }
+
 */
