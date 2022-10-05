@@ -1,3 +1,4 @@
+/*
 package com.leftovers.user.controller;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -314,3 +315,4 @@ class CustomerControllerTest {
                 .andExpect(MockMvcResultMatchers.status().is(204));
     }
 }
+*/
